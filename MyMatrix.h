@@ -354,7 +354,7 @@ void Matrix<T>::set(int _row, int _col, std::istream&is) {
 	}
 	this->row = _row; this->col = _col;this->mat.resize(_row*_col);
 	for(int i = 1; i <= row*col; i++)
-		is>>mat[i];
+		is>>mat[i-1];
 };
 
 template<typename T>

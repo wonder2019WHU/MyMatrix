@@ -3,7 +3,7 @@
 This code provides the template construction and mathematical calculation for the matrix: `Matrix<T>`
 + `T` is the numerical type, such as：`Matrix<int>`, `Matrix<double>`
 + The subscript of row and column starts at 1
-+ The matrix elemnts is stored by rows
++ The matrix elements is stored by rows
 
 ## Construction/Set
 There are three ways to assign values to a matrix:
